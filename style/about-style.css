@@ -1,0 +1,248 @@
+.about .div-bg-white {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 100px 80px #00000012, 0px 12px 11px #00000009;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px;
+}
+.about .div-flex-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.84px;
+    padding: 31px 1px 31.44px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #f1f2f3;
+}
+.about .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #232629;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24.9px;
+    white-space: nowrap;
+}
+.about .div-fs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 60.73px 0px 60.91px;
+    position: relative;
+    flex: 0 0 auto;
+}
+.about .monthly-visitors-to {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #232629;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.2px;
+}
+.about .text-wrapper-9 {
+    margin-top: -1px;
+    margin-left: -9.21px;
+    margin-right: -9.21px;
+    font-family: "Kotta One", Helvetica;
+    font-weight: 400;
+    color: #2f3337;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27.5px;
+    white-space: nowrap;
+}
+
+.about .card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.about .text-wrapper-10 {
+    font-family: "Kotta One", Helvetica;
+    font-weight: 400;
+    color: #2b3674;
+    font-size: 24px;
+    letter-spacing: -0.48px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.about .text-wrapper-11 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--secondarygrey-600);
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.about .tag-base {
+    float: right;
+    justify-content: center;
+    position: relative;
+    background-color: #ddb14e;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 8px;
+}
+.about .SVG {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.about .text-wrapper-15 {
+    position: relative;
+    width: 225px;
+    height: 55px;
+    margin-top: -1px;
+    font-family: "Kotta One", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 27.5px;
+    margin-bottom: 20px;
+}
+.about .text-wrapper-16 {
+    position: relative;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #989898;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.2px;
+}
+/*infos*/
+
+.infos{
+  justify-content: center;
+  background-image: url(../img/vector-2.png);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+/*  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+}
+.info-left,
+.info-right {
+  flex: 1;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+}
+.about .get-started-with {
+  font-family: "Kotta One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 86.6px;
+}
+.about .get-started-with {
+  font-family: "Kotta One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 86.6px;
+}
+
+footer{
+  background-color: #ddb14e;
+  overflow: hidden;
+  padding-top: 50px;
+}
+footer .frame-22 {
+    display: inline-flex;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+footer .element-padded {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+footer .text-wrapper-22 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.social{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.social-icon {
+      border: 1px solid #fff;
+    /* padding: 10px; */
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-icon img{
+  width: 20px;
+  height: 20px;
+}
+.about .navigation-2 {
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.about .about-about-us-what-w a{
+    opacity: 0.8;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.about .element-APCOM-all-ri {
+  padding-top: 30px;
+  border-top: 1px solid #ffffffa8;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+}
